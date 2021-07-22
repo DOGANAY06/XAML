@@ -1,0 +1,11 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <!--stack panel: canvas panel istediğimiz konuma gider stack panel düzen kontrolüdür ekranda yatay dikey otomatik konumlandırılmasını sağlar-->
+  <StackPanel Orientation ="Horizontal">
+  <Ellipse  VerticalAlignment="Top" Height="50" Width ="50" Fill ="Gold" /> <!--vertical alignment nesneyi dikeyde konumlandır-->
+  <Ellipse VerticalAlignment="Bottom" HorizontalAlignment="Center" Height="50" Width ="50" Fill ="Black" />
+  <Ellipse VerticalAlignment="Center" Height="50" Width ="50" Fill ="Gold" />
+  <Ellipse VerticalAlignment="Top" Height="50" Width ="50" Fill ="Black" />
+  </StackPanel>
+</Page>

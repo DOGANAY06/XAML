@@ -1,0 +1,26 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <!--grid:ızgara panel-->
+  <Grid  ShowGridLines="False"> <!--ızgara cizgilerinin görüntülenmesini sağlar true olursa-->
+     <Grid.RowDefinitions> <!--satır oluşturduk-->
+     <RowDefinition/>
+     <RowDefinition/>
+     <RowDefinition/>
+     </Grid.RowDefinitions>
+     <Grid.ColumnDefinitions> <!--sütun oluşturduk-->
+     <ColumnDefinition/>
+     <ColumnDefinition/>
+     </Grid.ColumnDefinitions>
+     <!--Grid Splinteer grid hareket etmemizi sağlar istenen gridi--> 
+     <GridSplitter Width="3" Grid.RowSpan="3" Background="Black" />
+     
+     
+     <Label Grid.Row="0" Grid.Column="0" Margin="10,10,20,20" Name="btnKullaniciAdi" Content="Kullanıcı Adı" />
+     <Label  Grid.Row="1" Grid.Column="0" Margin="40,20,20,20" Name="btnSifre" Content="Şifre"  />
+     <TextBox Grid.Row="0" Grid.Column="1"  Name="txtKullaniciAdi"   />
+     <TextBox  Grid.Row="1" Grid.Column="1"  Name="txtsifre"   />
+     <Button Grid.Row="2" Grid.Column="2" Content="Giriş Yap" Name="btnGirisYap" />
+     
+  </Grid>
+</Page>

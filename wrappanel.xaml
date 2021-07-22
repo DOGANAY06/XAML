@@ -1,0 +1,32 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <!--margin bir nesnenin etrafındaki alanlardan uzakllıdır kenar uzaklıkları-->
+  <WrapPanel> <!--içersinie aldığı tüm nesneleri ekrana sığdırmaya çalışır-->
+  <Ellipse  Margin="10" Height="150" Width ="150" Fill ="Gold" /> <!--vertical alignment nesneyi dikeyde konumlandır--> <!--marginde tek değer varsa bütün tarafa göredir-->
+  <Ellipse  Margin="10,2,40,10" Height="100" Width ="100" Fill ="Black" />
+  <Ellipse  Height="100" Width ="100" Fill ="LightBlue" />
+  <Ellipse Margin="-10,-2,-40,-10" Height="100" Width ="100" Fill ="Yellow" />
+  <Ellipse  Height="150" Width ="150" Fill ="Green" />
+  <Ellipse   Height="200" Width ="200" Fill ="Gold" /> <!--vertical alignment nesneyi dikeyde konumlandır-->
+  <Ellipse   Height="100" Width ="100" Fill ="Black" />
+  <Ellipse  Height="100" Width ="100" Fill ="LightBlue" />
+  <Ellipse  Height="150" Width ="150" Fill ="Yellow" />
+  <Ellipse  Height="100" Width ="100" Fill ="Green" />
+   <Ellipse   Height="100" Width ="100" Fill ="Gold" /> <!--vertical alignment nesneyi dikeyde konumlandır-->
+  <Ellipse   Height="100" Width ="100" Fill ="Black" />
+  <Ellipse  Height="100" Width ="100" Fill ="LightBlue" />
+  <Ellipse  Height="100" Width ="100" Fill ="Yellow" />
+  <Ellipse  Height="100" Width ="100" Fill ="Green" />
+   <Ellipse   Height="100" Width ="100" Fill ="Gold" /> <!--vertical alignment nesneyi dikeyde konumlandır-->
+  <Ellipse   Height="100" Width ="100" Fill ="Black" />
+  <Ellipse  Height="100" Width ="100" Fill ="LightBlue" />
+  <Ellipse  Height="100" Width ="100" Fill ="Yellow" />
+  <Ellipse  Height="100" Width ="100" Fill ="Green" />
+   <Ellipse   Height="100" Width ="100" Fill ="Gold" /> <!--vertical alignment nesneyi dikeyde konumlandır-->
+  <Ellipse   Height="100" Width ="100" Fill ="Black" />
+  <Ellipse  Height="100" Width ="100" Fill ="LightBlue" />
+  <Ellipse  Height="100" Width ="100" Fill ="Yellow" />
+  <Ellipse  Height="100" Width ="100" Fill ="Green" />
+   </WrapPanel>
+</Page>

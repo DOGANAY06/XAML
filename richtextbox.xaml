@@ -1,0 +1,17 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <!--richtextbox ="textboxdan farkı içine farklı stiller koyulması html etiketleri gibi"-->
+  <RichTextBox Margin="10,10,10,10" Name="rTxtYazi" HorizontalAlignment="Center" VerticalAlignment="Top" Height="250" Width="900">
+  <FlowDocument>
+  <Paragraph>
+  Doğan AY
+  <Bold>mısınız ? </Bold>
+  </Paragraph>
+  <Paragraph Foreground="Red">
+  Doğan AY
+  <Bold>mısınız ? </Bold>
+  </Paragraph>
+  </FlowDocument>
+  </RichTextBox>
+</Page>

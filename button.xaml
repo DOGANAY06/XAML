@@ -1,0 +1,13 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+ <!--button: Content özelliğine sahiptir, resim, video eklenebilir formdan farkı-->
+ <Button Height="100" Width="200" Background="Red" Foreground="Gold"  >
+ <Button.Content>
+ <StackPanel>
+ <Image Source ="https://resimdiyari.com/upload/2014/04/13/20140413122349-b8fd0f22.jpg" Stretch="Fill" />
+ </StackPanel>
+ </Button.Content>
+ </Button>
+ 
+</Page>
